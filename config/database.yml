@@ -1,0 +1,14 @@
+global: &default
+  adapter: postgresql
+  pool: 5
+  url: <%= ENV["DATABASE_URL"] %>
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  url: <%= ENV["TEST_DATABASE_URL"] %>
+
+production:
+  <<: *default

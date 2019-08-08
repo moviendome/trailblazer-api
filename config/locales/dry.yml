@@ -1,0 +1,8 @@
+en:
+  errors:
+    unique?:
+      arg:
+        default: "Email already taked"
+    greater_than_zero?:
+      arg:
+        default: "Must be greater than 0"
