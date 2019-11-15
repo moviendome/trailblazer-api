@@ -15,7 +15,7 @@ gem "railties", ">= 5.2.3"
 gem "pg", "1.1.4"
 gem "puma", "4.0.1"
 gem "bootsnap", "1.4.4", require: false
-gem "rack-cors", "1.0.3", require: "rack/cors"
+gem "rack-cors", "1.0.5", require: "rack/cors"
 
 # trb
 gem "trailblazer-rails", "2.1.7"
