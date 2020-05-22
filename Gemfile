@@ -13,7 +13,7 @@ gem "activerecord", ">= 5.2.3"
 gem "railties", ">= 5.2.3"
 
 gem "pg", "1.1.4"
-gem "puma", "4.0.1"
+gem "puma", "4.3.5"
 gem "bootsnap", "1.4.4", require: false
 gem "rack-cors", "1.0.3", require: "rack/cors"
 
